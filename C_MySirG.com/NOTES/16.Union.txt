@@ -1,0 +1,5 @@
+Union 
+    Union is similar to structure, expect it allows you to define variables that share storage space
+    Defining union means creating new data type
+    Union members are accessed in the same manner as we access structure members
+    

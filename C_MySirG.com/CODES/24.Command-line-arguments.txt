@@ -1,0 +1,15 @@
+Commanad line arguments
+    Ways to run your program
+    -Using IDE
+    -By double click
+    -Using commanad line arguments
+
+Arguments in main()
+    -Take somethng nature of function
+    -Actual and forma arguments
+    -main() may take arguments
+    -Who calls main?
+
+Remember
+    You can pass arguments to the main function only when you calling your program using commanad line arguments
+    

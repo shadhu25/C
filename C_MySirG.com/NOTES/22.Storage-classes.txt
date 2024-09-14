@@ -1,0 +1,11 @@
+Storage classes
+
+Storage class     Keyword     Default value   Storage                       Scope                                                   Life
+
+Automatic           auto        Garbage         RAM         Limited to the block in which it is declared        Till the execution of the block in which it is declared
+
+Register            register    Garbage         register    Limited to the block in which it is declared        Till the execution of the block in which it is declared
+
+Static              static      zero            RAM         Limited to the block in which it is declared        Till the end of program
+
+Extenal             extern      zero            RAM                         Global                              Till the end of program

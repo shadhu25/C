@@ -1,0 +1,11 @@
+Enumerator
+    It gives an opportunity to invent own data type and define what values the variable of this data type can take.
+
+enum monts{
+    jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec
+};
+
+jan=1  and dec=10
+
+Internally, compiler treats the enumerators as integers.
+you can write any program in C language without the help of enumerators but, enumerators helps in writing clear codes and simplify programming

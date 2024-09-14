@@ -1,0 +1,4 @@
+Recursion
+    Function calling itself is called recursion.
+    Each time the function call itself with a slightly simpler version of the original problem.
+    

@@ -1,0 +1,22 @@
+File Handling
+    
+    FILE is structure(non primitive data type)
+    typedef struct {
+        short level;
+        unsigned flags;
+        char fd;
+        unsigned char hold;
+        short bsize;
+        unsigned char *buffer;
+        unsigned char *curp;
+        unsigned istemp;
+        short token;
+    }FILE;
+
+File opening modes
+    r  ->    Read                   Only reading possible. Not cteate file if not exist.
+    w  ->    Write                  Only writing possible. Creates file if file not exist. Otherwise erase the old content of file and open as a blank file.
+    a  ->    Append                 Only writing possible. Create file if not exist, Otherwise open file and write from the end of file(do not erase the old content) 
+    r+ ->    reading + writing      R & W possible. Creates file if not exist. Overwritihg  existing data. Used for modifying content.
+    w+ ->    reading + writing      R & W possible. Creates file if not exist. Erase old content.
+    a+ ->    reading + writing      R & W possible. Creates file if not exist. Append content at the end of file.

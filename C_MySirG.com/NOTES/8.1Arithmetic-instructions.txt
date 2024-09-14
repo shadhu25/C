@@ -1,0 +1,13 @@
+Arithmetic Instruction 
+    An instruction which is used to mmanipulate data using operators, is known as Arithmetic instruction.
+
+    There is no BODMAS in C language.
+
+Operators groups
+    Unary Operators
+    Arithmetic Operators
+    Bitwise Operators
+    Relational Operators
+    Ligical Operators
+    Conditional Operators
+    Assignment Operators

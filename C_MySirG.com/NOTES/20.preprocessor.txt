@@ -1,0 +1,28 @@
+Pre-processor
+    Pre-processor is a program which performs before the compilation.
+    Pre-processor only notices # started statement
+    # is called pre-processor directive
+    Each pre-processing directive must be on its own line.
+    the word after # is called pre-processeor command
+#include
+    include is one of the most popular pre- processeor command
+    It can be used include any file content to ypur source file
+
+    #include<file_name or path>
+    #include"file_name or path"
+    this is wrong #include</media/shadhu/94986C41986C2448/studyMetarials/languageCode/C/c(saurabhshukla)/20.2preprocessor.c>
+    this is write #include"/media/shadhu/94986C41986C2448/studyMetarials/languageCode/C/c(saurabhshukla)/20.2preprocessor.c"
+#define
+    The #define directive defines an identifier and a character sequence ( a set of charectors ) that will be subtituted for the identifier each time it is encountered in the source file.
+    #define macro-name char-sequence
+    #define PI 3.14
+    #define SUM(a,b) a+b
+#undef
+    It is used to undifined macros
+    #undef PI
+#if, #else, #elif, #endif
+    As a file being compiled, you can use these commands to cause certain lines of code to be included or not included (for compilation)
+#ifdef
+    If the macro has been defined by a #define statement, then the code immediately following the command will be compiled 
+#ifundef
+    If the macro has not been defined by a #define statement, then the code immediately following the command will be compilled.

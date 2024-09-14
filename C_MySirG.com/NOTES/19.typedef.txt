@@ -1,0 +1,7 @@
+typedef
+    typedef is a keyword
+    We can use typedef to give new name to a data type
+
+typedef int INTEGER;
+Now you can use INTEGER as a data type which is just same as int
+INTEGER x,y;

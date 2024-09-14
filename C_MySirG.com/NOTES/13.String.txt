@@ -1,0 +1,12 @@
+String
+    Sequence of characters terminated at null character.
+    ASCII code of null character is 0
+
+String realated function
+    strlen():- give the length of String
+    Strrev():- reverse the String
+    strlwr():- conver into lowercase
+    strupr():- convert into upercase
+    strcpy():- copy a sting
+    strcmp():- compares two different String
+    strcat():- concatenate two different String

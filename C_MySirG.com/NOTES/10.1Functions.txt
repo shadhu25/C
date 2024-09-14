@@ -1,0 +1,21 @@
+What is Function?
+Piece of code to accomplish certain operation.
+it has a name for identification
+They are fo two types
+    Predefined functions
+    User defined functions
+
+Remember
+    Program must have at least one functions
+    Function nwmes must be unique
+    Function is an operation, once defined can be used many times.
+    One finction in the program must be main
+    Function consumes memory only when it is invoked and released from RAM as soon as it fineshes its job.
+
+Benefits of functions
+    modularization
+    Easy to read 
+    Easy to debug
+    Easy to modify
+    Avoids rewriteing of same code over and over
+    Better memory utilization

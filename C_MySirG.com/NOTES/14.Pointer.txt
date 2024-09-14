@@ -1,0 +1,53 @@
+    Address of operator
+        & is known as address of operator
+        It is an unary operator
+        Operand must be the name of variable
+        & operator gives address number of variable
+        & is also know as referencing operator
+    
+    Indirection operator
+        * is indirection operator
+        It is also known as dereferncing operator
+        It is an unary operator
+        It takes address as an argument
+        It takes address as an argument
+        * return the content/container whose address is its argument.
+
+    Important points
+        We can't store anything in &x as &x is not a variable, it is the way to represent address of block x.
+        We can store address in another variable
+        But the variable must decalared before use.
+
+Pointer 
+    Pointer is a variable that contains address of another variable.
+    Pointer always consumes 4 bytes in memory
+
+Call by reference 
+    Call by reference is same as call by address 
+    When formal arguments are pointer variables, it is call by reference
+    Reference means address
+
+Pointer and Array
+    Array always consumes memory location in contigous fashion
+    Pointer when incremented, always point to immedietely next block of its own type.
+
+String and Array
+    String Literal=String Constant=String
+
+Pointer
+    We connot add, multiply or divide two address(subtraction is possible)
+    We cannot multiply an integer to an address and similarly we divede an address with an integer value
+    We can or subtract integer to/from an address
+    &a/&b; // not possible
+    p/q; // not possibe
+    &a*&b; // not possible
+    p*p; // not possibe
+    p*5; // not possible
+    p+ q; // not possibe
+    // p=1000  p+1=1000+1*4(type)
+    p+1; // possible
+    q+3; // possible
+    int x,*m;
+    // p=1000  q=1020  m-p=1000-1020/4(type)
+    m-p; // possible
+    

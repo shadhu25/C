@@ -1,0 +1,7 @@
+Structure
+    Structure is a way to group variables
+    Structure is a collection of dissimilar elements
+    Defining structure means creating a new data type
+
+No memory consumed when we define a structure
+memory consumed when we difine its variables
